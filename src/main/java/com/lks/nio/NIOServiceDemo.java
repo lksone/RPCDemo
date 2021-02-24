@@ -1,7 +1,5 @@
 package com.lks.nio;
 
-import com.lks.nio.demo.NIOServer;
-
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
