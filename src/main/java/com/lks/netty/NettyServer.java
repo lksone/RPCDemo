@@ -32,7 +32,7 @@ public class NettyServer {
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         @Override
                         protected void initChannel(SocketChannel ch) throws Exception {
-                            //紅色還在
+                            //channelPopeline通道，设置大小
                             ChannelPipeline p = ch.pipeline();
                             p.addLast(new LineBasedFrameDecoder(1024));//很重要哦
                             p.addLast(new StringDecoder());//很重要哦
