@@ -18,7 +18,7 @@ public class EchoClientHandler extends ChannelInboundHandlerAdapter {
     private byte[] req;
 
     public EchoClientHandler() {
-        req = ("零度你好，关注了你的公众号：【匠心零度】。" + System.getProperty("line.separator")).getBytes();
+        req = ("你好么。" + System.getProperty("line.separator")).getBytes();
     }
 
     /**
